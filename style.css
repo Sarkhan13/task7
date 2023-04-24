@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    height: 500px;
+    width: 950px;
+    
+}
+
+.item{
+    height: 120px;
+    border: 1px solid black;
+    flex-grow: 1;
+    
+}
+
+.item1{
+    background-color: blue;
+    transition: height 2s;
+    transition-timing-function: ease;
+}
+
+.item1:hover {
+    height: 270px;
+}
+
+.item2{
+    background-color: red;
+    transition: height 2s;
+    transition-timing-function: ease-out;
+}
+
+.item2:hover {
+    height: 270px;
+}
+
+.item3{
+    background-color: green;
+    transition: height 2s;
+    transition-timing-function: linear;
+}
+
+.item3:hover {
+    height: 270px;
+}
