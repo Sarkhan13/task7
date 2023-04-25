@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    height: 500px;
+    height: 300px;
     width: 950px;
     
 }
@@ -40,4 +40,42 @@
 
 .item3:hover {
     height: 270px;
+}
+
+.box {
+    width: 50%;
+    height: 400px;
+    animation-name: animasiya;
+    animation-duration: 8s;
+    
+    
+}
+
+@keyframes animasiya {
+    0% {
+        background-color: black;
+    }
+
+    25% {
+        background-color: red;
+        transform: rotate(30deg);
+    }
+
+    50% {
+        background-color: yellow;
+        transform: rotate(90deg);
+    }
+
+    75% {
+        background-color: aqua;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        display: none;
+    }
+
+
+
 }
